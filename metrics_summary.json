@@ -1,0 +1,43 @@
+{
+  "metrics": [
+    {
+      "model": "Na\u00efve Baseline",
+      "MAE": 60.27301587301588,
+      "RMSE": 76.41055417359335,
+      "MAPE": 15.72876662582002,
+      "R2": -0.2002805093291078,
+      "Stockout_Reduction_%": 0.0
+    },
+    {
+      "model": "Prophet-Inspired",
+      "MAE": 67.79103790492206,
+      "RMSE": 83.46871485107478,
+      "MAPE": 17.52417056173324,
+      "R2": -0.4322654266034214,
+      "Stockout_Reduction_%": 13.999999999999996
+    },
+    {
+      "model": "LSTM",
+      "MAE": 60.00123705649257,
+      "RMSE": 76.42719544427685,
+      "MAPE": 16.17630072446498,
+      "R2": -0.2008033786665604,
+      "Stockout_Reduction_%": 21.999999999999993
+    },
+    {
+      "model": "Ensemble",
+      "MAE": 59.411936810668216,
+      "RMSE": 74.30395841954014,
+      "MAPE": 15.455170198395868,
+      "R2": -0.1350107016703328,
+      "Stockout_Reduction_%": 72.22222453703684
+    }
+  ],
+  "stockout_reduction_pct": 72.22,
+  "per_store_avg_reduction_pct": 67.78,
+  "ensemble_weights": {
+    "prophet": 0.48,
+    "lstm": 0.52
+  },
+  "horizon_days": 90
+}
