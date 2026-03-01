@@ -87,3 +87,5 @@ Optimization Algorithms
 Statistical Modeling
 
 Matplotlib
+
+HTML, CSS, JS
